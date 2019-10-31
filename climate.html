@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Climate Form</title>
+    <meta charset="utf-8">
+    <style>
+      body {
+      background-color: #0b6623;
+    }
+    </style>
+  </head>
+  <body>
+    <h1>Climate Data Input Form</h1>
+    <form action="climate.php" method="post">
+      <h3>Select Hemisphere</h3>
+      <input type="radio" name="hemisphere" value="northern"> Northern<br>
+      <input type="radio" name="hemisphere" value="southern"> Southern
+      <h3>Enter Monthly Average High (&#176;C)</h3>
+      <input type="text" name="highJan" size="8" placeholder="Jan">
+      <input type="text" name="highFeb" size="8" placeholder="Feb">
+      <input type="text" name="highMar" size="8" placeholder="Mar">
+      <input type="text" name="highApr" size="8" placeholder="Apr">
+      <input type="text" name="highMay" size="8" placeholder="May">
+      <input type="text" name="highJun" size="8" placeholder="Jun">
+      <input type="text" name="highJul" size="8" placeholder="Jul">
+      <input type="text" name="highAug" size="8" placeholder="Aug">
+      <input type="text" name="highSep" size="8" placeholder="Sep">
+      <input type="text" name="highOct" size="8" placeholder="Oct">
+      <input type="text" name="highNov" size="8" placeholder="Nov">
+      <input type="text" name="highDec" size="8" placeholder="Dec"><br><br>
+      <h3>Enter Monthly Average Low (&#176;C)</h3>
+      <input type="text" name="lowJan" size="8" placeholder="Jan">
+      <input type="text" name="lowFeb" size="8" placeholder="Feb">
+      <input type="text" name="lowMar" size="8" placeholder="Mar">
+      <input type="text" name="lowApr" size="8" placeholder="Apr">
+      <input type="text" name="lowMay" size="8" placeholder="May">
+      <input type="text" name="lowJun" size="8" placeholder="Jun">
+      <input type="text" name="lowJul" size="8" placeholder="Jul">
+      <input type="text" name="lowAug" size="8" placeholder="Aug">
+      <input type="text" name="lowSep" size="8" placeholder="Sep">
+      <input type="text" name="lowOct" size="8" placeholder="Oct">
+      <input type="text" name="lowNov" size="8" placeholder="Nov">
+      <input type="text" name="lowDec" size="8" placeholder="Dec"><br><br>
+      <h3>Enter Monthly Average Rainfall (mm)</h3>
+      <input type="text" name="precipJan" size="8" placeholder="Jan">
+      <input type="text" name="precipFeb" size="8" placeholder="Feb">
+      <input type="text" name="precipMar" size="8" placeholder="Mar">
+      <input type="text" name="precipApr" size="8" placeholder="Apr">
+      <input type="text" name="precipMay" size="8" placeholder="May">
+      <input type="text" name="precipJun" size="8" placeholder="Jun">
+      <input type="text" name="precipJul" size="8" placeholder="Jul">
+      <input type="text" name="precipAug" size="8" placeholder="Aug">
+      <input type="text" name="precipSep" size="8" placeholder="Sep">
+      <input type="text" name="precipOct" size="8" placeholder="Oct">
+      <input type="text" name="precipNov" size="8" placeholder="Nov">
+      <input type="text" name="precipDec" size="8" placeholder="Dec"><br><br>
+      <button type="input" name="enter">Enter</button>
+      <button type="reset" name="clear">Clear</button>
+    </form>
+  </body>
+</html>
